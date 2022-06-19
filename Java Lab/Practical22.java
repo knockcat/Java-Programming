@@ -34,9 +34,10 @@ class MyThread extends Thread {
 class Demo {
     public static void main(String[] args) {
         Display d = new Display();
+        Display d2 = new Display();
         MyThread t1 = new MyThread(d, "Vishal");
         t1.start();
-        MyThread t2 = new MyThread(d, "Joshi");
+        MyThread t2 = new MyThread(d2, "Joshi");
         t2.start();
     }
 }
