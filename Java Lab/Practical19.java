@@ -1,4 +1,4 @@
-// Write a program that take your name from keyboard and writes in some text file.
+// Write a multithreaded program where three threads are there and printing the numbers from 1 to 10 concurrently
 
 import java.io.*;
 
